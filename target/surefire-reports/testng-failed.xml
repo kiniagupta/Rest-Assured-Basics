@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Tests.GetApiTest">
+        <methods>
+          <include name="validatePageNumber"/>
+          <include name="getApi"/>
+          <include name="validateId"/>
+        </methods>
+      </class> <!-- Tests.GetApiTest -->
+      <class name="Tests.TestOnLocalAPIs">
+        <methods>
+          <include name="patch"/>
+          <include name="delete"/>
+          <include name="put"/>
+        </methods>
+      </class> <!-- Tests.TestOnLocalAPIs -->
+      <class name="Tests.PostApiTest">
+        <methods>
+          <include name="postTest1"/>
+          <include name="postTest2"/>
+          <include name="postTest3"/>
+        </methods>
+      </class> <!-- Tests.PostApiTest -->
+      <class name="Tests.PutApiTest">
+        <methods>
+          <include name="putTest"/>
+        </methods>
+      </class> <!-- Tests.PutApiTest -->
+      <class name="Tests.PostXMLTest">
+        <methods>
+          <include name="postTest"/>
+        </methods>
+      </class> <!-- Tests.PostXMLTest -->
+      <class name="Tests.DeleteApiTest">
+        <methods>
+          <include name="deleteTest"/>
+        </methods>
+      </class> <!-- Tests.DeleteApiTest -->
+      <class name="Tests.PatchApiTest">
+        <methods>
+          <include name="patchTest"/>
+        </methods>
+      </class> <!-- Tests.PatchApiTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
