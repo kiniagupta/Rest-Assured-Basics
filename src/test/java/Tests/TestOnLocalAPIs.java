@@ -4,6 +4,7 @@ import static io.restassured.RestAssured.*;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
+// to create api locally we have to use json-server library of node
 public class TestOnLocalAPIs {
 
     @Test
